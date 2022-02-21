@@ -18,4 +18,4 @@ python app.py
 | --- | --- |
 | `/event` | There are 2 methods get and post. With post method you need to specify event and date(YYYY-MM-DD). With get you can get all events if no start_date or end_date specified.|
 | `/event/today` | There is get method, which return all events today.|
-| `/event/<int:event_id>` | There are get and delete methods. With get you can get specific event with known id. With delete you can delete specific event with known id.|
+| `/event/event_id` | There are get and delete methods. With get you can get specific event with known id. With delete you can delete specific event with known id.|
